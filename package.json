@@ -1,0 +1,33 @@
+{
+  "name": "boltproto",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "jest-expo": "~27.0.0",
+    "react-native-scripts": "1.14.0",
+    "react-test-renderer": "16.3.1"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "expo": "^27.0.1",
+    "firebase": "^5.4.0",
+    "react": "^16.4.2",
+    "react-native": "~0.55.2",
+    "react-native-firebase": "^4.3.8",
+    "react-native-vector-icons": "^5.0.0",
+    "react-navigation": "^2.12.1"
+  },
+  "description": "This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).",
+  "author": "",
+  "license": "ISC"
+}
